@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.country-code {
+  margin-top: 100px;
+  padding: 5px;
+  width: 20px;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.phone-input {
+  margin-top: 100px;
+  padding: 5px;
+  min-width: 200px;
+  width: fit-content;
+  font-size: medium;
+  font-weight: normal;
+  background-color: lightgrey;
+  cursor: default;
+}
+
+.template {
+  width: 200px;
+  font-size: medium;
+}
+
+/* .search-button {
+    background-color: #ffc457d5;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  } */
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.JSON-data {
+  padding-bottom: 50vh;
+}
+
+.JSON-upload {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.example {
+  text-align: center;
+  justify-items: center;
+  margin: auto;
+}
+
+.params1 {
+  justify-content: center;
+  width: 200px;
+}
+
+.param2 {
+  justify-content: center;
+}
+
+.param3 {
+  justify-content: center;
+}
+
+.submit {
+  font-family: fantasy, copperplattet;
+}
+/* .numberField {
+    margin-top: 100px;
+  } */

@@ -1,0 +1,106 @@
+{
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "919840911259",
+  "type": "template",
+  "template": {
+    "name": "demo_template",
+    "language": {
+      "code": "en_US"
+    },
+    "components": [
+      {
+        "type": "header",
+        "parameters": [
+          {
+            "type": "image",
+            "image": {
+              "link": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/Ekran-Resmi-2019-11-18-18.08.13.png"
+            }
+          }
+        ]
+      },
+      {
+        "type": "body",
+        "parameters": [
+          {
+            "type": "text",
+            "text": "Navin"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+{
+  "messaging_product": "whatsapp",
+  "recipient_type": "individual",
+  "to": "PHONE_NUMBER",
+  "type": "template",
+  "template": {
+    "name": "hello_world",
+    "language": {
+      "code": "en_US"
+    },
+    "components": [
+      {
+        "type": "header",
+        "parameters": [
+          {
+            "type": "image",
+            "image": {
+              "link": "http(s)://URL"
+            }
+          }
+        ]
+      },
+      {
+        "type": "body",
+        "parameters": [
+          {
+            "type": "text",
+            "text": "TEXT_STRING"
+          },
+          {
+            "type": "currency",
+            "currency": {
+              "fallback_value": "VALUE",
+              "code": "USD",
+              "amount_1000": "NUMBER"
+            }
+          },
+          {
+            "type": "date_time",
+            "date_time": {
+              "fallback_value": "MONTH DAY, YEAR"
+            }
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "sub_type": "quick_reply",
+        "index": "0",
+        "parameters": [
+          {
+            "type": "payload",
+            "payload": "PAYLOAD"
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "sub_type": "quick_reply",
+        "index": "1",
+        "parameters": [
+          {
+            "type": "payload",
+            "payload": "PAYLOAD"
+          }
+        ]
+      }
+    ]
+  }
+}
