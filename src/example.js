@@ -241,7 +241,7 @@ function ExampleFunc() {
               value={number}
               onKeyDown={handleKeyDown}
             ></p>
-            <label className="user-label">Phone Number</label>
+            <label className="user-label">Phon Number</label>
           </div>
 
           {valid ? null : (
