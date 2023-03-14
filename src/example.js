@@ -241,7 +241,7 @@ function ExampleFunc() {
               value={number}
               onKeyDown={handleKeyDown}
             ></p>
-            <label className="user-label">Phon Number</label>
+            <label className="user-label">phone Number</label>
           </div>
 
           {valid ? null : (
@@ -265,8 +265,8 @@ function ExampleFunc() {
                 label="template"
                 onChange={updateTemplate}
               >
-                <MenuItem value={"hello_world"}>hello_world</MenuItem>
-                <MenuItem value={"demo_template"}>demo_template</MenuItem>
+                <MenuItem value={"hello_world"}>hello world</MenuItem>
+                <MenuItem value={"demo_template"}>demo template</MenuItem>
               </Select>
             </FormControl>
           </Box>
@@ -299,7 +299,7 @@ function ExampleFunc() {
               endIcon={<SendIcon />}
               onClick={submitHandler}
             >
-              Send
+              Send it
             </Button>
           </div>
         </div>
